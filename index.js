@@ -7,14 +7,11 @@ var randomdiceimage2="dice"+ randomNumber2 +".png";
 var img2 =document.querySelectorAll("img")[1];
 img2.setAttribute("src", randomdiceimage2);
 if(randomNumber1 > randomNumber2){
-    document.querySelector("h1").innerHTML="Player 1 Wins!";
-    console.log("🤩");
+    document.querySelector("h1").innerHTML="Player 1 Wins!🤩";
 }
 else if (randomNumber1<randomNumber2){
-    document.querySelector("h1").innerHTML="Player 2 wins!";
-    console.log("🤩");
+    document.querySelector("h1").innerHTML="Player 2 wins!🤩";
 }
 else{
-    document.querySelector("h1").innerHTML="Draw!";
-    console.log("🤜🤛");
+    document.querySelector("h1").innerHTML="Draw!🤜🤛";
 }
